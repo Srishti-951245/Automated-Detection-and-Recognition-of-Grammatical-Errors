@@ -136,6 +136,9 @@ class GecBERTModel(object):
         elif sugg_token.startswith("$APPEND_") or sugg_token.startswith("$MERGE_"):
             start_pos = index + 1
             end_pos = index + 1
+        else:
+            # If none of the above, return None to avoid UnboundLocalError
+            return None
 
         if sugg_token == "$DELETE":
             sugg_token_clear = ""
