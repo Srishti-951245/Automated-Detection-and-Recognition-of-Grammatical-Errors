@@ -34,39 +34,9 @@ To train the model data has to be preprocessed and converted to special format w
 python utils/preprocess_data.py -s SOURCE -t TARGET -o OUTPUT_FILE
 ```
 ## Pretrained models
-<table>
-  <tr>
-    <th>Pretrained encoder</th>
-    <th>Confidence bias</th>
-    <th>Min error prob</th>
-    <th>CoNNL-2014 (test)</th>
-    <th>BEA-2019 (test)</th>
-  </tr>
-  <tr>
-    <td>BERT <a href="https://grammarly-nlp-data-public.s3.amazonaws.com/gector/bert_0_gectorv2.th">[link]</a></td>
-    <td>0.1</td>
-    <td>0.41</td>
-    <td>61.0</td>
-    <td>68.0</td>
-  </tr>
-  <tr>
-    <td>RoBERTa <a href="https://grammarly-nlp-data-public.s3.amazonaws.com/gector/roberta_1_gectorv2.th">[link]</a></td>
-    <td>0.2</td>
-    <td>0.5</td>
-    <td>64.0</td>
-    <td>71.8</td>
-  </tr>
-  <tr>
-    <td>XLNet <a href="https://grammarly-nlp-data-public.s3.amazonaws.com/gector/xlnet_0_gectorv2.th">[link]</a></td>
-    <td>0.2</td>
-    <td>0.5</td>
-    <td>63.2</td>
-    <td>71.2</td>
-  </tr>
-</table>
 
+https://github.com/grammarly/gector/tree/fea1532608
 
-Note: The scores in the table are different from the paper's ones, as the later version of transformers is used. To reproduce the results reported in the paper, use this version of the repository.
 
 
  
