@@ -66,7 +66,7 @@ python utils/preprocess_data.py -s SOURCE -t TARGET -o OUTPUT_FILE
 </table>
 
 
-
+Note: The scores in the table are different from the paper's ones, as the later version of transformers is used. To reproduce the results reported in the paper, use this version of the repository.
 
 
  
